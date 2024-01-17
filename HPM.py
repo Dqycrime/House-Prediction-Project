@@ -85,7 +85,7 @@ with tab2.form(key='details'):
         pool = st.checkbox('Has pool?')
         yard = st.checkbox('Has backyard?')
         isnewbuilt = st.checkbox('Newly Built?')
-        year = st.text_input("Year Built  :bed:")
+        year = st.text_input("Year Built")
         abasement = st.slider("Basement Area (0 if none)", 0, 10000, 0)
         aattic = st.slider("Attic Area", 370, 10000, 0)
        
