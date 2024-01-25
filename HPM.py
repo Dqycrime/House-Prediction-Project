@@ -122,7 +122,7 @@ with tab2.form(key='details'):
             final = scaler_y.inverse_transform(result)
             final_number = format(int(final),',')
 
-            tab2.write(f'€{final_number})
+            tab2.write(f'€{final_number}')
             
             
     
