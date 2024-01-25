@@ -50,7 +50,7 @@ with tab1:
 
     tab1.divider()
     tab1.subheader("About This Project")
-    tab1.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
+    tab1.write(" In this age of technology, we are surrounded by computers and algorithms. Computer science has always interested me, even from a young age. Artificial Intelligence allows computers to solve problems based on the data given, such as being able to think independently, like a human. The idea of a computer being able to gain human characteristics is very interesting to me. Because of this, I made this simple AI model that can predict house prices in Paris.")
 
 
 # Open the app or website.
