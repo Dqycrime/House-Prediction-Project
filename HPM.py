@@ -75,21 +75,22 @@ with tab2:
 with tab2.form(key='details'):
     #df[['bedrooms','bathrooms','floors','sqft_basement','sqft_living','view','sqft_above','city','statezip','sqft_lot']]=X
         
-        sqftm = st.slider("Area of House (Sqm)", 0, 99985,0)
-        rooms = st.text_input("Rooms :bed:")
+        sqftm = st.slider("Area of House (Sqm)", 0, 1000,0)
+        rooms = st.text_input("Rooms :bed:",value='1')
         # bathrooms = st.text_input("Bathrooms :shower:")
-        floors = st.text_input("Floors")
+        floors = st.text_input("Floors",value='1')
         # abasement = st.text_input("Basement Area (0 if none)")
        
         # aliving = st.text_input("Living Area")
+        
+        isnewbuilt = st.checkbox('Newly Built?',value='1')
+        year = st.text_input("Year Built",value='1')
+        abasement = st.slider("Basement Area (0 if none)", 0, 300, 0)
+        aattic = st.slider("Attic Area", 370, 300, 0)
+       
+        agarage = st.slider("Area of Upper Floors", 0, 300, 0)
         pool = st.checkbox('Has pool?')
         yard = st.checkbox('Has backyard?')
-        isnewbuilt = st.checkbox('Newly Built?')
-        year = st.text_input("Year Built")
-        abasement = st.slider("Basement Area (0 if none)", 0, 10000, 0)
-        aattic = st.slider("Attic Area", 370, 10000, 0)
-       
-        agarage = st.slider("Area of Upper Floors", 0, 10000, 0)
 
         # aabove = st.text_input("Area of Upper Floors")
         
